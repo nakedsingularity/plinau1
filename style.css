@@ -1,0 +1,224 @@
+
+.navbar {
+    background-color: #e1e9ef;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+  }
+}
+
+#plinau {
+    padding:0px 100px;
+    padding-bottom:1px;
+    margin-top:-5px;
+    margin-bottom:-7px;
+    padding-right:30px;
+    font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  #plinau {
+    padding-left:15px;
+    margin:;
+  }
+}
+
+#instaLogo {
+    margin-bottom:5px;
+
+}
+
+#carousel {
+    margin-top:140px;
+    transition: 0.8s;
+}
+
+.navbar-collapse {
+    transition:;
+}
+
+#navbarNav {
+    margin:0px 0px;
+}
+
+#navbarNav li {
+    padding:0px 20px;
+    margin-top:2px;
+    font-size:17px;
+}
+
+#contacts {
+    margin-left:60px;
+}
+
+@media (max-width: 1200px) {
+  #contacts {
+    text-align: right;
+    margin-right: 16px;
+    margin-top:-5px;
+    margin-bottom:7px;
+  }
+}
+
+.logo {
+    padding-left:8px;
+    padding-right: 8px;
+    padding-top:13px;
+    margin-bottom:-15px;
+    height:50px;
+    width:50px;
+}
+
+.navbar-toggler {
+    margin-right:10px;
+    border: none;
+    padding:11px;
+    padding-bottom:-8px;
+    padding-top:15px;
+    padding-left:50px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#env {
+    margin-right:70px;
+}
+
+@media (max-width: 1200px) {
+  #navbarNav {
+    margin-left: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #env {
+    margin-right: 20px;
+
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .logo {
+    margin-right: 22px;
+    margin-bottom:0px;
+    margin-top:-6px;
+  }
+}
+
+.hidden {
+    display:none;
+}
+
+@media (max-width: 1200px) {
+  .hidden {
+    display: block;
+    margin-right:15px;
+    margin-left:-8px;
+  }
+}
+
+#inst {
+    margin-left:50px;
+}
+
+@media (max-width: 1200px) {
+  #inst {
+    margin-right: 19px;
+
+  }
+}
+
+@media (max-width: 1200px) {
+  #gallery li {
+    padding-left:200px;
+  }
+}
+
+.logo { 
+    color:#1B1D24;
+    text-decoration:none;
+}
+
+.faded-bg {
+    transition: 0.5s ease;
+    background-color: #abaeb5;
+}
+.unfaded-bg {
+    transition:0.3s;
+}
+
+.hover-nav {
+    transition: 0.3s;
+    color:red;
+}
+
+.btn-default:hover {
+    color:red;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity:0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+@keyframes transitionInDelay {
+    from {
+
+        opacity:0;
+        transform: translateY(-20px);
+    }
+    to {
+        animation-delay:3s;
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+@keyframes transitionInDelayToggler {
+    from {
+        animation-timing-function: ease-in;
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.container {
+    animation: transitionIn 1s;
+}
+.nav-link  {
+    animation: transitionIn 1s;
+}
+#inst {
+    animation: transitionInDelay 2s;
+}
+#vk {
+    animation: transitionInDelay 2.6s;
+}
+#env {
+    animation: transitionInDelay 3.2s;
+}
+.navbar-toggler {
+    animation: transitionInDelayToggler 1s;
+}
+
+ .no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_2.gif) center no-repeat #fff;
+} 
